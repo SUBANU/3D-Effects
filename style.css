@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:"poppins",sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    perspective:900px ;
+}
+#cardwrapper{
+    width: 50%;
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    transform-style: preserve-3d;
+    min-height:75vh;
+    width:25rem;
+    Padding:3rem 5rem;
+    box-shadow:0 20px 20px rgb(75,75,209,0.2),0px 0px 50px rgb(75,75,209,0.2);
+    background: black;
+}
+.item-img{
+    min-height :35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.item-img img{
+    width:20rem;
+    z-index:2;
+}
+.circle{
+    width:15rem;
+    height:15rem;
+    background: linear-gradient(to right,rgba(245, 139, 138, 0.75),rgba(0,83,156,0.75));
+    position: absolute;
+    border-radius:50% ;
+}
+.item-name{
+    font-size:20px;
+    color:rgb(25, 25, 173);
+    font-weight: lighter;
+}
+.item-description{
+    color:white;
+}
+
